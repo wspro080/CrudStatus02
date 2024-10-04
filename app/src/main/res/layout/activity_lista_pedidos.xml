@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de Pedidos"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <ListView
+        android:id="@+id/listViewPedidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <!-- Botão para voltar à MainActivity -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ButtonStyle"
+        android:textColor="@android:color/white"
+        android:text="Voltar para a tela principal"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

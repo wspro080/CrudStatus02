@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status do Pedido"
+        android:textSize="18sp"
+        style="@style/ButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do Pedido"
+        android:inputType="number" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonIniciar"
+        style="@style/ButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Pedido" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAtualizar"
+        style="@style/ButtonStyle"
+
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atualizar Pedido para 'Em Andamento'"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonEmRotaDeEntrega"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Atualizar Pedido para 'Em Rota de Entrega'"
+        android:textColor="@android:color/white" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBuscar"
+        android:layout_width="wrap_content"
+        style="@style/ButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:text="Buscar Pedido"
+        android:layout_marginTop="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonDeletar"
+        style="@style/ButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deletar Pedido"
+        android:layout_marginTop="8dp"/>
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonVerPedidos"
+        style="@style/ButtonStyle"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Lista de Pedidos"
+        android:layout_marginTop="8dp"/>
+        />
+
+</LinearLayout>
